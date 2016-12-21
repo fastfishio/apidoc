@@ -1,0 +1,14 @@
+{
+  "name": "apidoc swagger",
+  "description": "Specification of swagger using the apidoc format",
+
+  "models": {
+    "swagger": {
+      "fields": [
+        { "name": "swagger", "type": "string" },
+        { "name": "host", "type": "string" },
+        { "name": "basePath", "type": "string" }
+      ]
+    }
+  }
+}
